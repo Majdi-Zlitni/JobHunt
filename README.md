@@ -1,18 +1,21 @@
-# JobsPlanet
+# JobHunt
 
+Used version in this project is v16.20.2
 Complete Job Portal made with MERN stack.
 
 ## Installations
 
 ### Node
 
-* For Linux:
+- For Linux:
+
 ```
 curl -sL https://deb.nodesource.com/setup_13.x | sudo -E bash -
 sudo apt-get install -y nodejs
 ```
 
-* For Mac:
+- For Mac:
+
 ```
 brew install node
 ```
@@ -21,40 +24,44 @@ brew install node
 
 Install the community edition [here](https://docs.mongodb.com/manual/installation/#mongodb-community-edition-installation-tutorials).
 
-
 ### React
 
 ```
 npm install -g create-react-app
 ```
 
-* To create a new React app:
+- To create a new React app:
+
 ```
 create-react-app name_of_app
 ```
 
-* To run the app, cd into the directory and do:
+- To run the app, cd into the directory and do:
+
 ```
 npm start
 ```
 
 ## Run
 
-* Run Mongo daemon:
+- Run Mongo daemon:
+
 ```
 sudo mongod
 ```
+
 Mongo will be running on port 27017.
 
+- Run Express Backend:
 
-* Run Express Backend:
 ```
 cd backend/
 npm install
 npm start
 ```
 
-* Run React Frontend:
+- Run React Frontend:
+
 ```
 cd frontend
 npm install/
@@ -62,4 +69,3 @@ npm start
 ```
 
 Navigate to [http://localhost:3000/](http://localhost:3000/) in your browser.
-
